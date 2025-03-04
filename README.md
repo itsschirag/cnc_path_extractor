@@ -1,43 +1,31 @@
-# cnc_path_extractor
-Python .even : Python 3.8.10
-**PIP LIST **
-Package                    Version
--------------------------- -----------------------
+# CNC Path Extractor
+
+## Overview
+CNC Path Extractor is a Python-based tool designed to extract and process CNC path data efficiently. This tool helps in analyzing and converting CNC paths for various applications.
+
+## Environment Details
+- **Python Version:** 3.8.10
+
+## Dependencies
+Below is a list of required Python packages:
+
+```
 actionlib                  1.14.0
 angles                     1.9.13
-bondpy                     1.8.6
 cadquery                   2.4.0
 cadquery-ocp               7.7.0
-camera-calibration-parsers 1.12.0
 casadi                     3.6.7
-catkin                     0.8.10
 cement                     3.0.4
 colorlog                   6.9.0
 contourpy                  1.1.1
-cv-bridge                  1.16.2
 cycler                     0.12.1
-diagnostic-updater         1.11.0
-dynamic-reconfigure        1.7.3
 ezdxf                      1.1.4
 fonttools                  4.56.0
-gazebo_plugins             2.9.2
-gazebo_ros                 2.9.2
-gencpp                     0.7.0
-geneus                     3.0.0
-genlisp                    0.4.18
-genmsg                     0.6.0
-gennodejs                  2.0.2
-genpy                      0.6.15
-gps_common                 0.3.4
 importlib_resources        6.4.5
-interactive-markers        1.12.0
 Jinja2                     3.1.5
-joint-state-publisher      1.15.1
 kiwisolver                 1.4.7
-laser_geometry             1.6.7
 MarkupSafe                 2.1.5
 matplotlib                 3.7.5
-message-filters            1.17.0
 multimethod                1.9.1
 nlopt                      2.7.1
 nptyping                   2.0.1
@@ -52,70 +40,32 @@ pkg_resources              0.0.0
 pyglet                     1.5.31
 pyparsing                  3.1.4
 python-dateutil            2.9.0.post0
-python-qt-binding          0.4.4
 python-utils               3.8.2
 PyYAML                     6.0.2
-qt-dotgraph                0.4.2
-qt-gui                     0.4.2
-qt-gui-cpp                 0.4.2
-qt-gui-py-common           0.4.2
-resource_retriever         1.12.7
-rosbag                     1.17.0
-rosboost-cfg               1.15.8
-rosclean                   1.15.8
-roscreate                  1.15.8
-rosgraph                   1.17.0
-roslaunch                  1.17.0
-roslib                     1.15.8
-roslz4                     1.17.0
-rosmake                    1.15.8
-rosmaster                  1.17.0
-rosmsg                     1.17.0
-rosnode                    1.17.0
-rosparam                   1.17.0
-rospy                      1.17.0
-rosservice                 1.17.0
-rostest                    1.17.0
-rostopic                   1.17.0
-rosunit                    1.15.8
-roswtf                     1.17.0
-rqt_action                 0.4.9
-rqt_bag                    0.5.1
-rqt_bag_plugins            0.5.1
-rqt-console                0.4.12
-rqt_dep                    0.4.12
-rqt_graph                  0.4.14
-rqt_gui                    0.5.3
-rqt_gui_py                 0.5.3
-rqt-image-view             0.4.17
-rqt_launch                 0.4.9
-rqt-logger-level           0.4.12
-rqt_msg                    0.4.10
-rqt_plot                   0.4.13
-rqt_publisher              0.4.10
-rqt_py_common              0.5.3
-rqt_py_console             0.4.10
-rqt-reconfigure            0.5.5
-rqt_service_caller         0.4.10
-rqt_shell                  0.4.11
-rqt_srv                    0.4.9
-rqt_top                    0.4.10
-rqt_topic                  0.4.13
-rqt_web                    0.4.10
-rviz                       1.14.25
-sensor-msgs                1.13.1
 setuptools                 44.0.0
 six                        1.17.0
 smclib                     1.8.6
 stl                        0.0.3
-tf                         1.13.2
-tf2-geometry-msgs          0.7.7
-tf2-kdl                    0.7.7
-tf2-py                     0.7.7
-tf2-ros                    0.7.7
-topic-tools                1.17.0
 trimesh                    4.6.4
 typing_extensions          4.12.2
 typish                     1.9.3
-xacro                      1.14.18
 zipp                       3.20.2
+```
+
+## Installation
+To set up the environment, install the dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+To run the CNC Path Extractor, execute:
+
+```bash
+python cnc_path_extractor.py
+```
+
+## License
+This project is licensed under the MIT License.
+
